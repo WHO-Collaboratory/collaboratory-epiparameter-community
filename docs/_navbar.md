@@ -1,6 +1,7 @@
 <!-- _navbar.md -->
 
 * [About](/pages/about.md)
-* [Discussions](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/discussions)
-* [GitHub](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community)
-* [Contribute](/pages/contributing.md)
+* [Community](/pages/community.md)
+* [News](/pages/news.md)
+* [Channels](/pages/channels.md)
+* [Resources](/pages/resources.md)
