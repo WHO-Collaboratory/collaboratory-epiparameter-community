@@ -13,7 +13,7 @@ The epidemiological parameters community consist of a global collaborative worki
 ## How to contribute
 You can contribute by posting questions, participating in discussions as well as sharing ideas, tools, resources, and best practices.  
 
-This is a public repository, please feel to invite other interested experts by sharing this [link](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community) with them.  
+This is a public repository, please feel free to invite other interested experts by sharing this [link](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community) with them.  
 
 ## Code of conduct
 We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](https://ropensci.org/code-of-conduct/) to ensure you are ready to participate 
