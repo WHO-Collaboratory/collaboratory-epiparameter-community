@@ -10,7 +10,7 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 
 ### Our workstreams
 
-![workstreams](/images/workstreams.png)
+![workstreams](/pages/images/workstreams.png)
 
 Workstream 1: Prioritization and definition of parameters 
 * This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. 
