@@ -19,7 +19,7 @@ This is a public repository, please feel free to invite other interested experts
 We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](https://ropensci.org/code-of-conduct/) to ensure you are ready to participate 
 
 ## Resources
-* [Project concept note]()
+* [Project concept note](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/WHO_Global_Epi_Parameter_Concept_Note.pdf)
 * [Epiparameter R package](https://github.com/epiverse-trace/epiparameter)
 
 ## Contact us 
