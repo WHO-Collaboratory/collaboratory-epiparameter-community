@@ -2,11 +2,11 @@
 
 ### Overview
 
-The epidemiological parameters community consists of a global collaborative working group coordinated by WHO, which aims to develop a global repository of epidemiological parameters. This repository will be publicly accessible by modellers, epidemiologists, subject matter experts and decision makers to inform mathematical models and public health response. 
+The epidemiological parameters community consist of a global collaborative working group coordinated by WHO, which aims to develop a global repository of epidemiological parameters. This repository will be publicly accessible by modellers, epidemiologists, subject matter experts and decision makers to inform mathematical models and public health response. 
 
 Epidemiological parameters are used by mathematical models that are critical to understand the transmission dynamics of pathogens and to determine the potential impact of outbreaks in terms of morbidity, mortality, and geographical spread over time.  
 
-Therefore, by enabling faster and more transparent insight generation at the beginning and during an outbreak, the global epidemiological parameter repository will serve as an essential global public good to inform and guide public health interventions designed to mitigate the spread of diseases and reduce their impact on affected populations.  
+Therefore, by enabling faster and more transparent insight generation at the beginning and during an outbreak, the global epidemiological parameter repository will serve as an essential global public good to inform and guide public health interventions designed to mitigate the spread of diseases and reduce their impact on affected populations.    
 
 ### Our workstreams
 
