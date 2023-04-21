@@ -16,7 +16,7 @@ You can contribute by posting questions, participating in discussions as well as
 This is a public repository, please feel free to invite other interested experts by sharing this [link](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community) with them.  
 
 ## Code of conduct
-We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](https://ropensci.org/code-of-conduct/) to ensure you are ready to participate 
+We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/blob/main/CODE_OF_CONDUCT.md) to ensure you are ready to participate 
 
 ## Resources
 * [Project concept note](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/WHO_Global_Epi_Parameter_Concept_Note.pdf)
