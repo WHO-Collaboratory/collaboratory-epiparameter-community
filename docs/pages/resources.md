@@ -1,4 +1,6 @@
 ## Resources
 
-* [Project concept note](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/WHO_Global_Epi_Parameter_Concept_Note.pdf)
-* [Epiparameter R package](https://github.com/epiverse-trace/epiparameter)
+|                                             |                                                                                                                                                                           |                                                                                                                                                              |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![pdf](/images/pdf-icon-80x80.png)          | **[Project concept note](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/blob/main/materials/WHO_Global_Epi_Parameter_Concept_Note.pdf)** | [Download PDF](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/WHO_Global_Epi_Parameter_Concept_Note.pdf) |
+| ![external-link](/images/external-link.png) | **[Epiparameter R package](https://github.com/epiverse-trace/epiparameter)**                                                                                              |                                                                                                                                                              |
