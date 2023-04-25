@@ -7,5 +7,5 @@ The epidemiological parameter community is an inclusive, interdisciplinary and m
 We welcome you to join and engage with the community via our [GitHub](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community). You can contribute by posting questions, participating in discussions as well as sharing ideas, tools, resources, and best practices. You can also contribute technically to specific workstreams (e.g., systematic reviews, parameters extraction, development of analytic packages, etc.). Please contact collaboratory@who.int if you wish to discuss specific technical contributions. 
 
 ### Code of conduct
-We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/blob/main/CODE_OF_CONDUCT.md) to ensure you are ready to participate
+We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](code_of_conduct.md) to ensure you are ready to participate
 
