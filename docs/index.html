@@ -14,9 +14,10 @@
   <style>
     nav.app-nav.no-badge
     {
-      text-align: left;
+      text-align: center;
       margin-left: auto;
-      font-size: larger;
+      font-size: xx-large;
+      right: 80px;
     }
   </style>
 
@@ -66,7 +67,7 @@
 
     function positionNavbar () {
       let banner = document.getElementById('banner');
-      let height = banner.offsetHeight + 10;
+      let height = banner.offsetHeight + 1;
       let navbar = document.querySelector('.app-nav');
       navbar.style.top = height + 'px';
     }
