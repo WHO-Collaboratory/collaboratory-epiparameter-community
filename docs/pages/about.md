@@ -20,19 +20,19 @@ Therefore, by enabling faster and more transparent insight generation at the beg
     <area target="" alt="This workstream will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution." title="This workstream will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution." href="" coords="941,119,1156,252" shape="rect">
 </map>
 
-Workstream 1: Prioritization and definition of parameters 
+#### Workstream 1: Prioritization and definition of parameters 
 * This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. 
 * Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter. 
 
-Workstream 2: Extraction of parameters  
+#### Workstream 2: Extraction of parameters  
 * This workstream will focus on standardized methodologies and tools to extract parameters either retrospectively through literature review or in real-time through analysis of primary outbreak data. 
 
-Workstream 3: Storage and use of parameters 
+#### Workstream 3: Storage and use of parameters 
 * This workstream will focus on the identification of tools and approaches to support parameters storage in formats usable in analytical pipelines. 
 
-Workstream 4: Validation and maintenance of parameters 
+#### Workstream 4: Validation and maintenance of parameters 
 * This workstream will focus on the identification of mechanisms for validation and quality assurance of the parameters repository, as well as on sustainability models that support the continuous update of the parameters database. 
 
-Workstream 5: Scientific recognition and other incentives 
+#### Workstream 5: Scientific recognition and other incentives 
 * This workstream will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution. 
  
