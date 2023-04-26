@@ -75,12 +75,14 @@
       let navbar = document.querySelector('.app-nav');
       navbar.style.top = height + 'px';
     }
+    
+    $(function() {
+      // SmartWizard initialize
+      $('#smartwizard').smartWizard();
+    });
   </script>
   
-  $(function() {
-    // SmartWizard initialize
-    $('#smartwizard').smartWizard();
-});
+  
   
 </body>
 </html>
