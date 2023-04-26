@@ -10,7 +10,7 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 
 ### Our workstreams
 
-<img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/pages/images/workstreams.png" usemap="#image-map">
+<img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/pages/images/workstreams.png" usemap="#image-map" data-no-zoom>
 
 <map name="image-map">
     <area target="" alt="This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter." title="This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter." href="" coords="36,118,246,250" shape="rect">
