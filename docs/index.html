@@ -88,6 +88,30 @@
       hideSidebar: true,
     }
   </script>
+	
+	<script>
+        document.querySelectorAll('.workstream a').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('data-target');
+                const targetDiv = document.getElementById(targetId);
+				
+				document.querySelectorAll('.workstream a').forEach(a => {
+                    a.classList.remove('active');
+                });
+                this.classList.add('active');
+
+                document.querySelectorAll('.workstreamContent > div').forEach(div => {
+                    if (div !== targetDiv) {
+                        div.style.display = 'none';
+                    }
+					else {
+						targetDiv.style.display = 'flex';
+					}
+                });
+            });
+        });
+    </script>
 
   <!-- Required: docsify + docsify-themeable -->
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
