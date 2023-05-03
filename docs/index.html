@@ -18,6 +18,50 @@
       margin-left: auto;
       font-size: xx-large;
       right: 80px;
+      
+      .workstream {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .workstream li {
+            display: inline;
+        }
+
+        .workstream a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 16px;
+        }
+
+        .workstream a:hover {
+			color: #0B5C57;
+        }
+		
+		.workstream a.active {
+			color: #0B5C57;
+        }
+
+        .arrow {
+            font-size: 16px;
+            margin: 0 8px;
+        }
+
+        .workstreamContent > div {
+            display: none;
+			align-items: center;
+            justify-content: center;
+			padding: 8px 16px;
+			color: #0B5C57;
+        }
+		
+		.ws {
+			background-color: #F8F5F5;
+		}
     }
   </style>
 
