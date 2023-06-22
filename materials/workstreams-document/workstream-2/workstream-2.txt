@@ -1,0 +1,2 @@
+Workstream 2: Extraction of parametersDiscussions
+This workstream will focus on standardized methodologies and tools to extract parameters either retrospectively through literature review or in real-time through analysis of primary outbreak data.
