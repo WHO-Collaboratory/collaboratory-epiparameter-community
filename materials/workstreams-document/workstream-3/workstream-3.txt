@@ -1,0 +1,2 @@
+Workstream 3: Storage and use of parameters
+This workstream will focus on the identification of tools and approaches to support parameters storage in formats usable in analytical pipelines.
