@@ -1,0 +1,2 @@
+Workstream 4: Validation and maintenance of parameters
+This workstream will focus on the identification of mechanisms for validation and quality assurance of the parameters repository, as well as on sustainability models that support the continuous update of the parameters database.
