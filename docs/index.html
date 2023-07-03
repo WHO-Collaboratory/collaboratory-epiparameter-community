@@ -14,55 +14,30 @@
   <style>
     nav.app-nav.no-badge
     {
-      text-align: center;
-      margin-left: auto;
-      font-size: xx-large;
-      right: 80px;
+		text-align: center;
+		margin-left: auto;
+		font-size: xx-large;
+		right: 80px;
     }
 	
-    .workstream {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
+    .workstream 
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+    }
 
-        .workstream li {
-            display: inline;
-        }
-
-        .workstream a {
-            text-decoration: none;
-            color: #333;
-            padding: 8px 16px;
-        }
-
-        .workstream a:hover {
+    .workstreamContent > div 
+	{
+        display: none;
+		align-items: center;
+        justify-content: center;
+		padding: 8px 16px;
 		color: #0B5C57;
-        }
-		
-	.workstream a.active {
-		color: #0B5C57;
-        }
-
-        .arrow {
-            font-size: 16px;
-            margin: 0 8px;
-        }
-
-        .workstreamContent > div {
-            display: none;
-			align-items: center;
-            justify-content: center;
-			padding: 8px 16px;
-			color: #0B5C57;
-        }
-		
-	.ws {
-		background-color: #F8F5F5;
-	}
+    }
   </style>
 
 </head>
@@ -73,29 +48,23 @@
   <div id="app"></div>
   <script>
     function handleWorkstreamClick() {
-            document.querySelectorAll('.workstream a').forEach(link => {
-                link.addEventListener('click', function (event) {
-                    event.preventDefault();
-                    const targetId = this.getAttribute('data-target');
-                    const targetDiv = document.getElementById(targetId);
+        document.querySelectorAll('.workstream area').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('data-target');
+                const targetDiv = document.getElementById(targetId);
 
-                    // Set the clicked anchor to active and other anchors to inactive
-                    document.querySelectorAll('.workstream a').forEach(a => {
-                        a.classList.remove('active');
-                    });
-                    this.classList.add('active');
-
-                    document.querySelectorAll('.workstreamContent > div').forEach(div => {
-                        if (div !== targetDiv) {
-                            div.style.display = 'none';
-                        }
-			else {
-			    targetDiv.style.display = 'flex';
-			}
-                    });
+                document.querySelectorAll('.workstreamContent > div').forEach(div => {
+                    if (div !== targetDiv) {
+                        div.style.display = 'none';
+                    }
+					else {
+						targetDiv.style.display = 'flex';
+					}
                 });
             });
-        }	  
+        });
+    }	  
 	  
 	  
     window.$docsify = {

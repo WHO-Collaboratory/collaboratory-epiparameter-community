@@ -10,28 +10,26 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 
 ### Our workstreams
 
-<div class="ws">
-        <ul class="workstream">
-            <li><a href="#" data-target="w1" class="active">1.<br>Prioritisation<br>&amp; definition</a></li>
-            <li class="arrow">&rarr;</li>
-            <li><a href="#" data-target="w2">2.<br>Extraction<br>&nbsp;</a></li>
-            <li class="arrow">&rarr;</li>
-            <li><a href="#" data-target="w3">3.<br>Storage<br>&amp; use</a></li>
-            <li class="arrow">&rarr;</li>
-            <li><a href="#" data-target="w4">4.<br>Validation<br>&amp; maintenance</a></li>
-			<li class="arrow">&rarr;</li>
-            <li><a href="#" data-target="w5">5.<br>Scientific<br>recognition</a></li>
-        </ul>
-		<div class="workstreamContent">
-			<br>
-			<br>
-			<div id="w1" style="display:flex">This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter.</div>
-			<div id="w2">This workstream will focus on standardized methodologies and tools to extract parameters either retrospectively through literature review or in real-time through analysis of primary outbreak data.</div>
-			<div id="w3">This workstream will focus on the identification of tools and approaches to support parameters storage in formats usable in analytical pipelines.</div>
-			<div id="w4">This workstream will focus on the identification of mechanisms for validation and quality assurance of the parameters repository, as well as on sustainability models that support the continuous update of the parameters database.</div>
-			<div id="w5">This workstream will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution.</div>
-		</div>
-	</div>
+<div class="workstream">
+	<img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/pages/images/workstreams.png" usemap="#image-map" data-no-zoom>
+	<map name="image-map">
+		<area data-target="w1" target="" alt="Prioritisation &amp; definition" title="Prioritisation &amp; definition" href="#" coords="-1,90,92,-1,181,93,89,178" shape="poly">
+		<area data-target="w2" target="" alt="Extraction" title="Extraction" href="#" coords="102,192,193,104,283,193,193,281" shape="poly">
+		<area data-target="w3" target="" alt="Storage &amp; use" title="Storage &amp; use" href="#" coords="205,89,296,-1,385,89,295,179" shape="poly">
+		<area data-target="w4" target="" alt="Validation &amp; maintenance" title="Validation &amp; maintenance" href="#" coords="309,193,398,103,489,194,400,282" shape="poly">
+		<area data-target="w5" target="" alt="Scientific recognition" title="Scientific recognition" href="#" coords="411,92,500,1,590,90,501,181" shape="poly">
+	</map>
+</div>
+
+<div class="workstreamContent">
+	<br>
+	<br>
+	<div id="w1" style="display:flex">This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter.</div>
+	<div id="w2">This workstream will focus on standardized methodologies and tools to extract parameters either retrospectively through literature review or in real-time through analysis of primary outbreak data.</div>
+	<div id="w3">This workstream will focus on the identification of tools and approaches to support parameters storage in formats usable in analytical pipelines.</div>
+	<div id="w4">This workstream will focus on the identification of mechanisms for validation and quality assurance of the parameters repository, as well as on sustainability models that support the continuous update of the parameters database.</div>
+	<div id="w5">This workstream will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution.</div>
+</div>
 
     
  
