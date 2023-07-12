@@ -24,11 +24,11 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 <div class="workstreamContent">
 	<br>
 	<br>
-	<div id="w1" style="display:flex">This workstream will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter.</div>
-	<div id="w2">This workstream will focus on standardized methodologies and tools to extract parameters either retrospectively through literature review or in real-time through analysis of primary outbreak data.</div>
-	<div id="w3">This workstream will focus on the identification of tools and approaches to support parameters storage in formats usable in analytical pipelines.</div>
-	<div id="w4">This workstream will focus on the identification of mechanisms for validation and quality assurance of the parameters repository, as well as on sustainability models that support the continuous update of the parameters database.</div>
-	<div id="w5">This workstream will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution.</div>
+	<div id="w1" style="display:flex">Workstream 01 will focus on the development of data taxonomy, data dictionary and model for the epidemiological parameter repository. Furthermore, we will Identify priority parameters that are needed to inform decision making across various use cases as well as required contextual information for each parameter.</div>
+	<div id="w2">Workstream 02 will focus on standardized methodologies and tools to extract parameters either retrospectively through literature review or in real-time through analysis of primary outbreak data.</div>
+	<div id="w3">Workstream 03 will focus on the identification of tools and approaches to support parameters storage in formats usable in analytical pipelines.</div>
+	<div id="w4">Workstream 04 will focus on the identification of mechanisms for validation and quality assurance of the parameters repository, as well as on sustainability models that support the continuous update of the parameters database.</div>
+	<div id="w5">Workstream 05 will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution.</div>
 </div>
 
     
