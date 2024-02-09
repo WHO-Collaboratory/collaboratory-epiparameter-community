@@ -10,14 +10,14 @@ We welcome you to join and engage with the community via our [GitHub](https://gi
 We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](/pages/code_of_conduct.md) to ensure you are ready to participate
 
 ### Community Technical Working Group
-* Julia Fitzner – Collaboratory Team Lead
-* Patricia Ndumbi – Epi parameter Community Lead
-* Lisa Wadell – SME knowledge and evidence synthesis
-* Adam Kucharski – SME Infectious Disease Modelling
-* Anne Cori - SME Infectious Disease Modelling
-* Joshua Lambert – SME Infectious Disease Modelling
-* Carmen Tamayo Cuartero - SME Infectious Disease Modelling
-* Finlay Campbell - SME Infectious Disease Modelling
-* Miroslav Levar – Software Architect
-* Mia Zivkovic– Business Analyst
-* John Fass – SME UX/UI
+* **Julia Fitzner** – Collaboratory Team Lead
+* **Patricia Ndumbi** – Epi parameter Community Lead
+* **Lisa Wadell** – SME knowledge and evidence synthesis
+* **Adam Kucharski** – SME Infectious Disease Modelling
+* **Anne Cori** - SME Infectious Disease Modelling
+* **Joshua Lambert** – SME Infectious Disease Modelling
+* **Carmen Tamayo Cuartero** - SME Infectious Disease Modelling
+* **Finlay Campbell** - SME Infectious Disease Modelling
+* **Miroslav Levar** – Software Architect
+* **Mia Zivkovic** – Business Analyst
+* **John Fass** – SME UX/UI
