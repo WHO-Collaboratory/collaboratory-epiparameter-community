@@ -33,6 +33,6 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 
 ### Early-Stage Outbreak Analytics Hackathon
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/C4f96oSUI0I">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/KsJ9iyBrCag">
 </iframe>
  
