@@ -21,7 +21,7 @@ We are building a welcoming and diverse global community from a range of discipl
 ## Resources
 * [Project concept note](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/WHO_Global_Epi_Parameter_Concept_Note.pdf)
 * [Epiparameter R package](https://github.com/epiverse-trace/epiparameter)
-* [Imperial College London Protocol for the systematic review of transmission and modelling parameters of nine WHO blue-print priority pathogens.pdf](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/Imperial_College_London_Protocol_for_the_systematic_review_of_transmission_and_modelling_parameters_of_nine_WHO_blue_print_priority_pathogens.pdf)
+* [Imperial College London Protocol for the systematic review of transmission and modelling parameters of nine WHO blue-print priority pathogens.pdf](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/Imperial_College_London_Protocol_for_the_systematic_review_of_transmission_and_modelling_parameters_of_nine_WHO_blue_print_priority_pathogens.pdf)
 * [EpiReview GitHub page](https://github.com/mrc-ide/epireview)
 
 ## Contact us 
