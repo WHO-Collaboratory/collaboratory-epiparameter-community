@@ -11,9 +11,9 @@
 The epidemiological parameters community consist of a global collaborative working group coordinated by WHO, which aims to develop a global repository of epidemiological parameters which will be publicly accessible by modellers, epidemiologists, subject matter experts and decision makers to inform mathematical models and public health response. This repository is the first stop for experts wishing to contribute to this project.
 
 ## How to contribute
-You can contribute by posting questions, participating in discussions as well as sharing ideas, tools, resources, and best practices.  
+You can contribute by joining our [discourse community] (https://collab-forum.who.int/). Here you can post questions, participate in discussions and share ideas, tools, resources, and best practices.  
 
-This is a public repository, please feel free to invite other interested experts by sharing this [link](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community) with them.  
+This is a public repository, please feel free to invite other interested experts by sharing this [link](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community) with them.   
 
 ## Code of conduct
 We are building a welcoming and diverse global community from a range of disciplines and sectors. We care about making this a safe place for new and existing contributors. We therefore invite you to read our [Code of Conduct](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/blob/main/CODE_OF_CONDUCT.md) to ensure you are ready to participate 
