@@ -12,7 +12,7 @@ We are building a welcoming and diverse global community from a range of discipl
 ### Community Technical Working Group
 * **Julia Fitzner** – Collaboratory Team Lead
 * **Patricia Ndumbi** – Epi parameter Community Lead
-* **Lisa Wadell** – SME knowledge and evidence synthesis
+* **Lisa Waddell** – SME knowledge and evidence synthesis
 * **Adam Kucharski** – SME Infectious Disease Modelling
 * **Anne Cori** - SME Infectious Disease Modelling
 * **Joshua Lambert** – SME Infectious Disease Modelling
