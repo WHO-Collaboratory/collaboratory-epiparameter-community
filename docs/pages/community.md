@@ -14,4 +14,8 @@ We are building a welcoming and diverse global community from a range of discipl
 ### Community Technical Working Group
 Members of the core Community Technical Working Group are listed below. 
 
-![](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/docs/images/TWG.png)
+<p align="center">
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/images/TWG.png" width="600" align = "left">
+</p>
+
+
