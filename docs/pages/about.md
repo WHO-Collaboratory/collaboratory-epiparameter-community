@@ -31,6 +31,14 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 	<div id="w5">Workstream 05 will focus on the identification of mechanisms for recognition of authors and contributors, as well as other incentives mechanisms for sustained contribution.</div>
 </div>
 
+### 2024 in-person workshop: Refining the Global Repository of Epidemiological Parameters data schema
+Access the meeting report [here](http://github.com/WHO-Collaboratory/collaboratory-epiparameter-community/blob/main/materials/meetings/TWG6_GREP_Hackathon_May14162024/EpiParameter_GREP_Workshop_Report_Short_FINAL.pdf)
+
+<p align="center">
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/images/Report.png" width="300" align = "left">
+</p>
+
+
 ### Early-Stage Outbreak Analytics Hackathon
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/KsJ9iyBrCag">
