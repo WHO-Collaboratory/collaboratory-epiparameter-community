@@ -13,7 +13,7 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 The epidemiological parameters community has a membership of over 100 people, from institutions across the globe. This community is led by a core working group, made up of individuals from the Imperial College London, the Public Health Agency of Canada and the London School of Hygiene and Tropical Medicine. 
 
 <p align="center">
-  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/WhodoesWhat.png" width="700" align = "center">
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/WhodoesWhat.png" width="500" align = "center">
 </p> 
 
 <br clear="left"/> 
@@ -23,12 +23,12 @@ The epidemiological parameters community has a membership of over 100 people, fr
 
  ● Epiverse-TRACE Project [click here](https://epiverse-trace.github.io/)
 
-Further details about EpiParameter community membership and the core working group can be found on our [Community](https://who-collaboratory.github.io/collaboratory-epiparameter-community/#/pages/community) page.
+Further details about EpiParameter community membership and the core working group can be found on our [Collaboratory](https://collab-forum.who.int/) platform.
 
 ### Current project status
 
 <p>
-  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/images/Sep2024Status.png" width="700" align = "left">
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/images/Sep2024Status.png" width="800" align = "left">
 </p> 
 
 <br clear="left"/> 
