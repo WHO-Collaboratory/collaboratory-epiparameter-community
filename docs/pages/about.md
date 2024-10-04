@@ -13,7 +13,7 @@ Therefore, by enabling faster and more transparent insight generation at the beg
 The epidemiological parameters community has a membership of over 100 people, from institutions across the globe. This community is led by a core working group, made up of individuals from the Imperial College London, the Public Health Agency of Canada and the London School of Hygiene and Tropical Medicine. 
 
 <p align="center">
-  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/WhodoesWhat.png" width="500" align = "center">
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/WhodoesWhat.png" width="600" align = "center">
 </p> 
 
 <br clear="left"/> 
