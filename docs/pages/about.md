@@ -23,7 +23,7 @@ The epidemiological parameters community has a membership of over 100 people, fr
 
  ● Epiverse-TRACE Project [click here](https://epiverse-trace.github.io/)
 
-Further details about EpiParameter community membership and the core working group can be found on our [Collaboratory](https://collab-forum.who.int/) platform.
+ ● Further details about EpiParameter community membership and the core working group can be found on our [Collaboratory](https://collab-forum.who.int/) platform.
 
 ### Current project status
 
