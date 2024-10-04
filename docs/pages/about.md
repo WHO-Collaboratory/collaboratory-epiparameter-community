@@ -2,11 +2,41 @@
 
 ### Overview
 
-The epidemiological parameters community consist of a global collaborative working group coordinated by WHO, which aims to develop a global repository of epidemiological parameters. This repository will be publicly accessible by modellers, epidemiologists, subject matter experts and decision makers to inform mathematical models and public health response. 
+The epidemiological parameters community consist of a global collaborative working group coordinated by WHO, which aims to develop a global repository of epidemiological parameters. This repository will be made available to the public, with the intention of supporting modelling, epidemiology and decision making activities. 
 
 Epidemiological parameters are used by mathematical models that are critical to understand the transmission dynamics of pathogens and to determine the potential impact of outbreaks in terms of morbidity, mortality, and geographical spread over time.  
 
-Therefore, by enabling faster and more transparent insight generation at the beginning and during an outbreak, the global epidemiological parameter repository will serve as an essential global public good to inform and guide public health interventions designed to mitigate the spread of diseases and reduce their impact on affected populations.    
+Therefore, by enabling faster and more transparent insight generation at the beginning and during an outbreak, the global epidemiological parameter repository will serve as an essential global public good to inform and guide public health interventions designed to mitigate the spread of diseases and reduce their impact on affected populations.
+
+### Community membership 
+
+The epidemiological parameters community has a membership of over 100 people, from institutions across the globe. This community is led by a core working group, made up of individuals from the Imperial College London, the Public Health Agency of Canada and the London School of Hygiene and Tropical Medicine. 
+
+<p align="center">
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/WhodoesWhat.png" width="700" align = "center">
+</p> 
+
+<br clear="left"/> 
+
+#### Learn more about the the initiatives:
+ ● Priority Pathogens Project (Pathogen Evidence Review Group) [click here](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/related-initiatives/perg/)
+
+ ● Epiverse-TRACE Project [click here](https://epiverse-trace.github.io/)
+
+Further details about EpiParameter community membership and the core working group can be found on our [Community](https://who-collaboratory.github.io/collaboratory-epiparameter-community/#/pages/community) page.
+
+### Current project status
+
+<p>
+  <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/images/Sep2024Status.png" width="700" align = "left">
+</p> 
+
+<br clear="left"/> 
+
+
+
+
+<br clear="left"/>
 
 ### Our workstreams
 
