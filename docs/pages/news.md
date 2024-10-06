@@ -1,6 +1,7 @@
 ## News
 
-* **September 4, 2024**: Closed group virtual webinar on quality of reporting questions to be included in the Global Repository of Epidemiological Parameters (GREP), hosted by Lisa Waddell (Public Health Agency of Canada) 
+* **October 30, 2024**: Virtual presentation on "SARS mathematical models and disease parameters" by Christian Morgernstern, Thomas Rawson and Sangeeta Bhatia from the Imperial College of London
+* **September 4, 2024**: Closed group virtual webinar on quality of reporting questions to be included in the Global Repository of Epidemiological Parameters (GREP), hosted by Lisa Waddell (Public Health Agency of Canada)
 * **June 20, 2024**: Virtual presentation on "Extracting accurate parameters from research papers" by Maciej Polak and Dane Morgan from the University of Wisconsin Madison.
 * **May 14-16, 2024**: In person EpiParameter Collaboratory Workshop: Refining the GREP Database Schema hosted at the WHO Hub for Pandemic and Epidemic Intelligence.  
 * **May 1, 2024**: Presentation on “Lassa Fever and Ebola Virus Disease mathematical models and epidemiological parameters: systematic review and meta-analysis” by Patrick Doohan, Christian Morgernstern, Sangeeta Bhatia and Juliette Unwin from the Imperial College of London (Online)
