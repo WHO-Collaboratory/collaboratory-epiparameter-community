@@ -25,7 +25,7 @@ The epidemiological parameters community has a membership of over 100 people, fr
 
  ● Further details about EpiParameter community membership and the core working group can be found on our [Collaboratory](https://collab-forum.who.int/) platform.
  
- ● Want more details? [Work with us](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/Work with us.pdf)      
+ ● Want more details? [Work with us](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/Workwithus.pdf)      
 
 ### Current project status
 
