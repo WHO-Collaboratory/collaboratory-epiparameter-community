@@ -1,6 +1,7 @@
 ## News
 
 * **November 28, 2024**: Virtual presentation on "Guidelines on quality assessment and reporting of mathematical modelling studies for infectious disease dynamics" by Antonia Bartz from the University of Münster
+* **November 4-8, 2024**: Presentation on the Global Repository of Epidemiolgical Parameters at the Infectious Disease Modelling conference, Bangkok. 
 * **October 30, 2024**: Virtual presentation on "SARS mathematical models and disease parameters" by Christian Morgernstern, Thomas Rawson and Sangeeta Bhatia from the Imperial College of London
 * **September 4, 2024**: Closed group virtual webinar on quality of reporting questions to be included in the Global Repository of Epidemiological Parameters (GREP), hosted by Lisa Waddell (Public Health Agency of Canada)
 * **June 20, 2024**: Virtual presentation on "Extracting accurate parameters from research papers" by Maciej Polak and Dane Morgan from the University of Wisconsin Madison.
