@@ -1,6 +1,7 @@
 ## News
 
 * **January 27, 2025**: Virtual presentation on “Epi Scanner: Real Time Epidemic Scanner”, a joint initiative between Fundação Getulio Vargas (FGV) and Fiocruz.
+* **December 18, 2024**: Informal drop-in session featuring end of year updates from Epi Parameter Community members 
 * **November 28, 2024**: Virtual presentation on "Guidelines on quality assessment and reporting of mathematical modelling studies for infectious disease dynamics" by Antonia Bartz from the University of Münster
 * **November 4-8, 2024**: Presentation on the Global Repository of Epidemiolgical Parameters at the Infectious Disease Modelling conference, Bangkok. 
 * **October 30, 2024**: Virtual presentation on "SARS mathematical models and disease parameters" by Christian Morgernstern, Thomas Rawson and Sangeeta Bhatia from the Imperial College of London
