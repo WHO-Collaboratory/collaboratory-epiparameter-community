@@ -1,5 +1,6 @@
 ## News
 
+* **March 18, 2025**: In-person meeting of the core working group to review the GREP MVP ahead of the launch in Quarter 1, 2025
 * **January 27, 2025**: Virtual presentation on “Epi Scanner: Real Time Epidemic Scanner”, a joint initiative between Fundação Getulio Vargas (FGV) and Fiocruz.
 * **December 18, 2024**: Informal drop-in session featuring end of year updates from Epi Parameter Community members 
 * **November 28, 2024**: Virtual presentation on "Guidelines on quality assessment and reporting of mathematical modelling studies for infectious disease dynamics" by Antonia Bartz from the University of Münster
