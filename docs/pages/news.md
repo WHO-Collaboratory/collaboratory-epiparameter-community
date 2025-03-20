@@ -1,6 +1,10 @@
 ## News
 
-* **March 18, 2025**: In-person meeting of the core working group to review the GREP MVP ahead of the launch in Quarter 1, 2025
+* **June 12, 2025**: Virtual webinar on "Lessons learnt using the Mpox grEPI product for parameter summaries" by Steve Kerr from CPC analytics
+* **May 12, 2025**: Virtual webinar on "Nexstrain: Real-time tracking of pathogen evolution" by Victor Lin from Nexstrain 
+* **April 29, 2025**: Virtual webinar on "Unraveling Climate Impacts on Arboviral Disease Transmission" by Anna-Maria Hartner from the Robert Koch Institute 
+* **April 24, 2025**: Virtual consultation #2 with the Epi Parameter core working group on the grEPI Minimum Viable Product (MVP) Prototype 
+* **March 31, 2025**: Virtual consultation #1 with the Epi Parameter core working group on the grEPI Minimum Viable Product (MVP) Prototype 
 * **January 27, 2025**: Virtual presentation on “Epi Scanner: Real Time Epidemic Scanner”, a joint initiative between Fundação Getulio Vargas (FGV) and Fiocruz.
 * **December 18, 2024**: Informal drop-in session featuring end of year updates from Epi Parameter Community members 
 * **November 28, 2024**: Virtual presentation on "Guidelines on quality assessment and reporting of mathematical modelling studies for infectious disease dynamics" by Antonia Bartz from the University of Münster
