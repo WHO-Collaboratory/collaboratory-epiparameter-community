@@ -27,7 +27,7 @@ The epidemiological parameters community has a membership of over 100 people, fr
  
  ● Want more details? [Work with us](https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/materials/background/Workwithus.pdf)      
 
-### Current project status
+### Current project status as at April 2025
 
 <p>
   <img src="https://github.com/WorldHealthOrganization/collaboratory-epiparameter-community/raw/main/docs/images/Sep2024Status.png" width="800" align = "left">
