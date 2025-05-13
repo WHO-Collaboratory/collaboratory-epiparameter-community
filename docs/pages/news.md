@@ -1,5 +1,5 @@
 ## News
-
+* **July-August 2025**: Break from webinars - see you again in September!
 * **June 12, 2025**: Virtual webinar on "Lessons learnt using the Mpox grEPI product for parameter summaries" by Steve Kerr from CPC analytics
 * **May 12, 2025**: Virtual webinar on "Nexstrain: Real-time tracking of pathogen evolution" by Victor Lin from Nexstrain 
 * **April 29, 2025**: Virtual webinar on "Unraveling Climate Impacts on Arboviral Disease Transmission" by Anna-Maria Hartner from the Robert Koch Institute 
