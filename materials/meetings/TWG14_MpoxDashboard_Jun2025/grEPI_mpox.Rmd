@@ -1,0 +1,273 @@
+---
+title: "Using grEPI to Create Epidemiological Parameter Summary Tables"
+author: "Steve Kerr"
+date: 11 June 2025
+output: 
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, 
+  message = FALSE, 
+  warning = FALSE
+)
+```
+
+## Overview
+
+### What is grEPI?
+
+grEPI (Global Repository of Epidemiological Parameters) is WHO’s centralized database containing systematically reviewed epidemiological parameters for various pathogens. This tutorial shows how to access and summarize these parameters programmatically.
+
+### Learning Objectives
+
+- Connect to WHO Collaboratory grEPI API endpoints
+- Extract and clean epidemiological parameters from API responses
+- Create summary tables for pathogen parameters
+
+### Prerequisites
+
+- Basic R knowledge
+- Understanding of epidemiological concepts
+
+
+### Required Libraries
+
+```{r, message=FALSE}
+library(httr)       # For HTTP requests to APIs
+library(jsonlite)   # To parse JSON responses from APIs
+library(tidyverse)  # For data wrangling and visualization
+library(janitor)    # For cleaning column names and data inspection
+library(gt)         # For nicely formatted table output
+```
+
+
+## 1. Explore Available Endpoints
+
+We begin by querying the root of the WHO Collaboratory API to discover which datasets are available. This helps us identify the relevant table containing mpox parameters.
+
+```{r}
+url <- "https://xmart-api-public-uat.who.int/COLLAB"
+response <- GET(url)
+
+if (status_code(response) != 200) {
+  stop("API request failed with status: ", status_code(response))
+}
+
+json_text <- content(response, "text")
+data <- fromJSON(json_text)
+endpoint_df <- data$value
+```
+
+```{r, echo=FALSE}
+gt(endpoint_df) %>% opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 10)
+```
+
+<div class="alert alert-info" role="alert">
+
+💡 Look for datasets ending in `_PARAMETERS` for epidemiological data
+
+</div>
+
+## 2. Extract Mpox Parameters
+
+Once we have the endpoint name, we connect specifically to the `MPOX_PARAMETERS` table. We then clean the raw data by removing system-generated columns.
+
+```{r}
+url <- "https://xmart-api-public-uat.who.int/COLLAB/MPOX_PARAMETERS"
+response <- GET(url)
+
+if (status_code(response) != 200) {
+  stop("Failed to fetch mpox data. Status: ", status_code(response))
+}
+
+json_text <- content(response, "text")
+json_data <- fromJSON(json_text)
+mpox_parameters_table <- json_data$value
+
+mpox_raw <- mpox_parameters_table %>%
+  clean_names() %>%
+  select(-starts_with("sys_"), -record_id)
+```
+
+✓ Raw data extracted: `r nrow(mpox_raw)` records
+
+```{r, echo=FALSE}
+gt(mpox_raw) %>% opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 3)
+```
+
+
+We confirm that the data was successfully extracted and then focus only on fields relevant for analysis: parameters, population characteristics, and source articles.
+
+```{r}
+glimpse(mpox_raw)
+
+mpox_df <- mpox_raw %>%
+  select(
+    starts_with("param_"),
+    distribution_type_fk,
+    starts_with("pop_"),
+    starts_with("article_")
+  )
+```
+
+✓ Focused dataset created with `r ncol(mpox_df)` relevant columns
+
+```{r, echo=FALSE}
+gt(mpox_df) %>% opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 3)
+```
+
+
+## 3. Filter for Incubation Period Parameters
+
+Next, we filter the dataset to retain only records related to the incubation period. We restrict results to human delay parameters measured in days.
+
+```{r}
+tabyl(mpox_df$param_subtype_fk)
+
+mpox_ip <- mpox_df %>%
+  filter(
+    param_type_fk == "Human delay",
+    param_subtype_fk %in% c("incubation period", "incubation period (infection to onset)"),
+    param_unit_fk == "Days"
+  )
+```
+
+✓ Filtered to `r nrow(mpox_ip)` incubation period records
+
+```{r, echo=FALSE}
+gt(mpox_ip) %>% opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 3)
+```
+
+
+`r if (nrow(mpox_ip) == 0) warning("No incubation period data found. Check filter criteria.")`
+
+## 4. Data Cleaning and Transformation
+
+This step formats the data for analysis and visualization. We:
+	- Convert numeric columns to the right type
+	- Round values
+	- Create readable age and uncertainty ranges
+	- Harmonize uncertainty types (e.g., “CRI95%” becomes “95% CrI”)
+
+```{r}
+mpox_clean <- mpox_ip %>%
+  mutate(
+    across(matches("^param_uncert_.*_val$"), as.numeric),
+    across(matches("^pop_age_"), as.integer),
+    across(where(is.numeric), ~ round(.x, 1)),
+    param_value_type_fk = str_to_title(param_value_type_fk),
+    range = case_when(
+      !is.na(param_bound_lower) & !is.na(param_bound_upper) ~ paste(param_bound_lower, "-", param_bound_upper),
+      TRUE ~ NA_character_
+    ),
+    uncert_bounds = case_when(
+      !is.na(param_uncert_lower_val) & !is.na(param_uncert_upper_val) ~ paste(param_uncert_lower_val, "-", param_uncert_upper_val),
+      TRUE ~ NA_character_
+    ),
+    pop_age_range = case_when(
+      !is.na(pop_age_min) & !is.na(pop_age_max) ~ paste(pop_age_min, "-", pop_age_max),
+      !is.na(pop_age_min) ~ paste0(pop_age_min, "+"),
+      TRUE ~ NA_character_
+    ),
+    param_uncert_type_fk = case_when(
+      param_uncert_type_fk == "CRI95%" ~ "95% CrI",
+      param_uncert_type_fk == "CI95%" ~ "95% CI",
+      TRUE ~ param_uncert_type_fk
+    )
+  )
+```
+
+```{r, echo=FALSE}
+gt(mpox_clean) %>% opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 3)
+```
+
+```{r}
+mpox_pivot <- mpox_clean %>%
+  pivot_wider(
+    names_from = param_uncert_type_fk,
+    values_from = uncert_bounds
+  )
+```
+
+```{r, echo=FALSE}
+gt(mpox_pivot) %>% opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 3)
+```
+
+We then reshape the data into a wide format so that each uncertainty type (e.g., IQR, 95% CI) gets its own column.
+
+
+## 5. Create Final Summary Table
+
+We prepare a tidy summary table with selected variables that are ready for interpretation or export. This includes the parameter value, uncertainty bounds, distribution, and population characteristics.
+
+The table below is interactive — you can search, sort, and scroll horizontally.
+
+```{r}
+result <- mpox_pivot %>%
+  select(
+    `Article Label` = article_label,
+    `Article Title` = article_title,
+    `Country` = pop_country,
+    `Sample Size` = pop_sample_size,
+    `Sex` = pop_sex_fk,
+    `Age Range` = pop_age_range,
+    `Parameter Type` = param_value_type_fk,
+    `Value (days)` = param_val,
+    `95% CrI`,
+    `95% CI`,
+    `IQR`,
+    `Range` = range,
+    `Distribution` = distribution_type_fk
+  ) %>%
+  arrange(`Article Label`) %>%
+  select(where(~ !all(is.na(.))))
+
+# Optional: Save results
+# write_csv(result, "mpox_incubation_parameters.csv")
+
+
+result %>%
+  gt() %>%
+  tab_header(
+    title = md("**Mpox Incubation Period Parameters from grEPI**"),
+  ) %>%
+  fmt_missing(
+    columns = everything(),
+    missing_text = "—"
+  ) %>%
+  opt_table_outline() %>%
+  opt_interactive(use_search = TRUE, use_filters = TRUE, page_size_default = 5)
+```
+
+
+Summary of incubation period parameters found in the table:
+
+- **Total studies included:** `r nrow(result)`
+- **Countries represented:** `r length(unique(result$Country[!is.na(result$Country)]))`
+- **Mean incubation period:** `r round(mean(result[["Value (days)"]], na.rm = TRUE), 1)` days
+- **Range of values:** `r round(min(result[["Value (days)"]], na.rm = TRUE), 1)` – `r round(max(result[["Value (days)"]], na.rm = TRUE), 1)` days
+ 
+
+<div class="alert alert-warning" role="alert">
+
+**Troubleshooting Tips:**
+
+- If API fails: Check internet connection and try again  
+- If no data returned: Verify filter criteria match available values  
+- For other pathogens: Replace `'MPOX_PARAMETERS'` with desired endpoint
+
+</div>
+
+<div class="alert alert-info" role="alert">
+
+**Try These Exercises:**
+
+- Modify the script to extract serial interval parameters instead  
+- Filter for a specific country or age group
+
+</div>
