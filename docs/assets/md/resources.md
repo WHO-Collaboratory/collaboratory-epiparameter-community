@@ -16,7 +16,7 @@
 </p> 
 
 <br>
-<p style="padding: 2rem 1.75rem;"><a href="https://mrc-ide.github.io/epireview/" target="_blank" rel="noopener noreferrer">epireview</a> is a tool to obtain the latest data, figures and tables from the <a href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/related-initiatives/perg/">Pathogen Epidemiology Review Group (PERG)</a>.This package also contains functions to update pathogen-specific databases with new data from peer-reviewed papers as they become available.</p>
+<p style="padding: 2rem 1.75rem;"><a href="https://mrc-ide.github.io/epireview/" target="_blank" rel="noopener noreferrer">epireview</a> is a tool to obtain the latest data, figures and tables from the <a target="_blank"  href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/related-initiatives/perg/">Pathogen Epidemiology Review Group (PERG)</a>.This package also contains functions to update pathogen-specific databases with new data from peer-reviewed papers as they become available.</p>
 
 ### NoTitle
 
