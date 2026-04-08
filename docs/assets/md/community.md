@@ -20,7 +20,7 @@ Regular webinars and online workshops provide a platform for sharing knowledge. 
 <br>
 <br>
 <br>​
-<a href="https://collaboratory.who.int/forum/c/epiparameter/6">Join Collaboratory</a> to access past webinar recordings and/or attend upcoming webinars. Please reach out to us at collaboratory@who.int to propose a webinar.
+<a target="_blank" href="https://collaboratory.who.int/forum/c/epiparameter/6">Join Collaboratory</a> to access past webinar recordings and/or attend upcoming webinars. Please reach out to us at collaboratory@who.int to propose a webinar.
 
 <br clear="left"/> 
 

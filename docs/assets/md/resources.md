@@ -27,13 +27,13 @@
 <br>
 <p style="padding: 2rem 1.75rem;"><a href="https://epiverse-trace.github.io/epiparameter/" target="_blank" rel="noopener noreferrer">epiparameter</a>  is an R package, developed at the <a href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases">Centre for the Mathematical Modelling of Infectious Diseases</a> at the <a href="https://www.lshtm.ac.uk/">London School of Hygiene and Tropical Medicine</a> as part of <a href="https://data.org/our-work/epiverse/">Epiverse-TRACE</a>, that contains a library of epidemiological parameters for infectious diseases as well as classes and helper functions to work with the data.</p>
 
-### [Systematic review of epidemiological parameters for measles](https://doi.org/10.17605/OSF.IO/7K4GU)
+### <a href="https://doi.org/10.17605/OSF.IO/7K4GU/" target="_blank" rel="noopener noreferrer">Systematic review of epidemiological parameters for measles</a> 
 <br>Public Health Agency of Canada (PHAC)
 
 
-### [Systematic review of transmission and modelling parameters of nine WHO blue-print priority pathogens](https://www.crd.york.ac.uk/PROSPERO/view/393345)
+### <a href="https://www.crd.york.ac.uk/PROSPERO/view/393345" target="_blank" rel="noopener noreferrer">Systematic review of transmission and modelling parameters of nine WHO blue-print priority pathogens</a> 
 Imperial College London - Pathogen Epidemiology Review Group (PERG)
 
 
-### [Highlight studies that estimate key epidemiological parameters for mpox](https://worldhealthorg.shinyapps.io/mpx_global/#sec-lit)
+### <a href="https://worldhealthorg.shinyapps.io/mpx_global/#sec-lit" target="_blank" rel="noopener noreferrer">Highlight studies that estimate key epidemiological parameters for mpox</a>
 <br>Public Health Agency of Canada (PHAC) and World Health Organization (WHO)
