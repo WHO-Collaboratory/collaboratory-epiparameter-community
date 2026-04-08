@@ -25,9 +25,9 @@
 </p> 
 
 <br>
-<p style="padding: 2rem 1.75rem;"><a href="https://epiverse-trace.github.io/epiparameter/" target="_blank" rel="noopener noreferrer">epiparameter</a>  is an R package, developed at the <a href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases">Centre for the Mathematical Modelling of Infectious Diseases</a> at the <a href="https://www.lshtm.ac.uk/">London School of Hygiene and Tropical Medicine</a> as part of <a href="https://data.org/our-work/epiverse/">Epiverse-TRACE</a>, that contains a library of epidemiological parameters for infectious diseases as well as classes and helper functions to work with the data.</p>
+<p style="padding: 2rem 1.75rem;"><a href="https://epiverse-trace.github.io/epiparameter/" target="_blank" rel="noopener noreferrer">epiparameter</a>  is an R package, developed at the <a target="_blank" href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases">Centre for the Mathematical Modelling of Infectious Diseases</a> at the <a target="_blank" href="https://www.lshtm.ac.uk/">London School of Hygiene and Tropical Medicine</a> as part of <a target="_blank" href="https://data.org/our-work/epiverse/">Epiverse-TRACE</a>, that contains a library of epidemiological parameters for infectious diseases as well as classes and helper functions to work with the data.</p>
 
-### <a href="https://doi.org/10.17605/OSF.IO/7K4GU/" target="_blank" rel="noopener noreferrer">Systematic review of epidemiological parameters for measles</a> 
+### <a href="https://doi.org/10.17605/OSF.IO/7K4GU" target="_blank" rel="noopener noreferrer">Systematic review of epidemiological parameters for measles</a> 
 <br>Public Health Agency of Canada (PHAC)
 
 
