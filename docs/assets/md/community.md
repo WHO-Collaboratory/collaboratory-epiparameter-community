@@ -2,7 +2,7 @@
 
 ### GREP initiative {custom="3Col"}
 
-<p>Global Repository of Epidemiological Parameters (GREP) initiative is building a living repository of epidemiological parameters (grEPI), a publicly accessible digital public good for health. It provides systematic, transparent, and reproducible datasets to understand heterogeneity in parameters, reporting quality, and the context in which they were derived. GREP is led by a Core Technical Working Group and consults the community for input regularly. <a href="https://who-collaboratory.github.io/collaboratory-grep-test/#initiative"> Learn more...</a>
+<p>Global Repository of Epidemiological Parameters (GREP) initiative is building a living repository of epidemiological parameters (grEPI), a publicly accessible digital public good for health. It provides systematic, transparent, and reproducible datasets to understand heterogeneity in parameters, reporting quality, and the context in which they were derived. GREP is led by a Core Technical Working Group and consults the community for input regularly. <a href="https://who-collaboratory.github.io/collaboratory-epiparameter-community/#initiative"> Learn more...</a>
 <p>
 <p align="center">
 <br>
