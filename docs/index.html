@@ -1,125 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Collaboratory - Epiparameter Community</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="shortcut icon" type="image/x-icon" href="/collaboratory-epiparameter-community/images/favicon.ico?">
-  
-  <!-- Theme: Simple -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  
-  <style>
-    nav.app-nav.no-badge
-    {
-		text-align: center;
-		margin-left: auto;
-		font-size: xx-large;
-		right: 80px;
-    }
-	
-    .workstream 
-	{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-    }
-
-    .workstreamContent > div 
-	{
-        display: none;
-		align-items: center;
-        justify-content: center;
-		padding: 8px 16px;
-    }
-  </style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EpiParameters CoP</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <div id="banner">
-    <img src="/collaboratory-epiparameter-community/images/collab-logo-full.svg" alt="logo" style="width: -webkit-fill-available;">
-  </div>
-  <div id="app"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo" aria-label="Collab — go to top">
+      <img src="assets/collab_0.png" alt="Collab" class="hero__banner" />
+    </a>
+    <nav aria-label="Main navigation">
+      <ul class="nav__links" id="navMenu">
+        <li><a href="#about"      class="nav-link">Background</a></li>
+        <li><a href="#community"  class="nav-link">Community</a></li>
+        <li><a href="#initiative" class="nav-link">Focus</a></li>
+        <li><a href="#resources"  class="nav-link">Resources</a></li>
+      </ul>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div id="hero-canvas"></div>
+    <div class="hero__body">
+      <p class="hero__title">
+        <div class="banner">
+          <div class="epi-logo"></div>
+          <div><h1 class="banner__title">Epidemiological Parameters</h1></div>
+        </div>
+        <p class="hero__tagline">Global Community of Practice</p>
+      <div class="hero__cta">
+        <a href="#about"      class="btn btn-navy">Get Started</a>
+        <a href="#initiative" class="btn btn-navy">GREP initiative</a>
+        <a href="#community"  class="btn btn-navy">Join Us</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+      Scroll
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section class="section s-about" id="about">
+    <div class="section__inner">
+      <header class="section__hd reveal">
+        <span class="eyebrow">Background</span>
+        <h2 class="section__title">Epidemiological parameter estimates</h2>
+        <div class="rule"></div>
+          <p>Epidemiological parameters are quantitative measures that describe various aspects of how diseases spread and progress within populations. They capture key aspects of disease transmission, such as how quickly an infection spreads, how long individuals remain infectious, and how many people may require hospital care. As such, they play a fundamental role in guiding public health interventions designed to reduce disease transmission and reduce its impact on affected populations.</p>
+          <p>However, these estimates are derived using a wide range of methods, from simple calculations to highly complex approaches and are reported in many different ways. This variability limitis timely and consistent ways of finding and using estimates especially during rapidly evolving outbreaks, thus limiting effective use in modeling and public health decision-making.</p>
+          <p><a href="#community">Epidemiological Parameters Community of Practice (CoP)</a>, set up through the <a target="_blank" href="https://www.who.int/initiatives/collaboratory">Collaboratory initiative</a> of <a target="_blank" href="https://pandemichub.who.int/">the WHO  Hub for Pandemic and Epidemic Intelligence</a>, is actively addressing these challenges by pooling resources, sharing knowledge, and co-creating solutions through the <a href="#initiative">GREP Initiative</a>.</p>
+        <div class="about-layout">
+          <div class="about-video">
+            <img src="assets/AboutPic.png" alt="About" style="width:100%;border-radius:15px;border:1px solid var(--border);">
+          </div>
+          <div class="about-video">
+            <iframe style="width:100%; height:350px;border-radius:15px;border:1px solid var(--border);" src="https://www.youtube.com/embed/VvpYHhFDIjI?si=suTTEU2-fbOV9l_0%22" title="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </header>
+    </div>
+  </section>
+
+
+  <!-- Community -->
+  <section class="section s-community" id="community">
+    <div class="section__inner">
+      <header class="section__hd reveal">
+        <span class="eyebrow">Community of Practice</span>
+        <h2 class="section__title">Epidemiological Parameters</h2>
+        <div class="rule"></div>
+        <div class="community-layout">
+          <div class="community-text">
+            <p class="section__lead">
+              Since the launch of the <a target="_blank" href="https://www.who.int/initiatives/collaboratory">Collaboratory initiative</a> by the <a target="_blank" href="https://pandemichub.who.int/">World Health Organization Hub for Pandemic and Epidemic Intelligence</a> in 2022., epidemiological parameters area has been endorsed as a high priority for convening a global Community of Practice that will interact together to pool resources, share knowledge, co-create solutions and continuously improve existing practices, methodologies, supporting tools, data availability and quality.
+            </p>
+            <p class="section__lead">
+             Epidemiological parameters is a global multidisciplinary community of practice with 100+ active members that connects epidemiologists, mathematical modelers, public health practitioners, data scientists, IT professionals and many others and has a wide network of partners that contribute to the overall community work.
+            </p>
+            <p class="section__lead">
+            Participation is open and flexible. Members and partners engage in different ways, from attending webinars and participating in online discussion forum to contributing with expertise, data, tools or methodological insights to community initiatives.
+            </p>
+          </div>
+          <div class="about-video">
+            <iframe style="width:100%; height:350px;border-radius:15px;border:1px solid var(--border);" src="https://www.youtube.com/embed/4h-t42iCKI4?si=TgY4oLAYWjukum1P" title="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+          <div style="display:flex; justify-content:center; gap:1rem; margin-top:1rem;">
+            <a href="https://collaboratory.who.int/forum/c/epiparameter/6" target="_blank" class="btn btn-navy">Join Us</a>
+            <a href="mailto:collaboratory@who.int" class="btn btn-navy">Contact Us</a>
+          </div>
+          </div>
+        </div>
+      </header>
+
+      <h2 class="third_title">Activities</h2>
+      <div class="cards" id="community-cards"></div>
+      <div class="cards" id="community-cards-2"></div>
+      <img src="assets/EpiParameterCoPPic.png" style="border-radius:15px;display:block;margin:2rem auto 0;width:100%;" alt="EpiParameter CoP">
+    </div>
+  </section>
+
+
+  <!-- GREP Initiative -->
+  <section class="section s-initiative" id="initiative">
+    <div class="section__inner">
+      <header class="section__hd reveal">
+        <span class="eyebrow">Focus</span>
+        <h2 class="section__title">Global Repository of Epidemiological Parameters (GREP) initiative</h2>
+        <div class="rule"></div>
+        <p>The Global Repository of Epidemiological Parameters (GREP) initiative is led by a Core Technical Working Group within the Epidemiological Parameters Community of Practice. The initiative aims to create a publicly accessible living global repository of epidemiological parameters to inform public health interventions.</p>
+      </header>      
+      <div  class="cards1"id="initiative-3-cards"></div>
+      <br>
+      <br>
+      <h2 class="third_title">Core Technical Working Group</h2>
+      <br>
+      <p>
+        Core Technical Working Group is comprised of subject matter experts who drive definition, design, development and implementation of an initial pilot of a global repository of epidemiological parameters, providing it with curated data and connecting it with existing epi tools.
+      </p>
+      <br>
+      <br>
+      <div id="initiative-4-cards"></div>
+      <br>
+      <br>
+      <br>
+      <h2 class="third_title">Workstreams</h2>
+      <br>
+      <p>
+        Building a global living repository of epidemiological parameters requires not only technical development but shared standards, intentional governance, and a sustainable ecosystem that supports contributors and users alike. To guide this effort, GREP initiative work is organized into five workstreams.
+      </p>
+      <br>
+      <br>
+      <div id="initiative-5-cards"></div>
+      <br>      
+      <div class="ftr-banner reveal">
+        <div class="ftr-banner__body">
+          <div class="epi-logo"></div> 
+          <div>
+            <p class="ftr-banner__text">Learn more about the Global Repository of Epidemiological Parameters (grEPI), explore its features, and how to contribute.</p>
+          </div>
+        </div>
+        <a href="https://who-collaboratory.github.io/collaboratory-grepi-web/" target="_blank" class="btn btn-navy2">grEPI <span class="material-icons-outlined btn-arrow">arrow_right_alt</span></a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Resources -->
+  <section class="section s-resources" id="resources">
+    <div class="section__inner">
+      <header class="section__hd reveal">
+        <span class="eyebrow">Resources</span>
+        <h2 class="section__title">Tools and Files</h2>
+      </header>
+      <div class="cards" id="resources-cards"></div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="grepi-footer-container">
+
+      <div class="grepi-footer-collab">
+        <div>
+          <a href="https://www.who.int/initiatives/collaboratory" target="_blank" rel="noopener noreferrer">
+            <img src="assets/collab_logo_white.png" alt="Collaboratory" class="grepi-footer-collab-logo">
+          </a>
+        </div>
+        <div class="grepi-footer-collab-text">Pandemic and Epidemic</div>
+        <div class="grepi-footer-collab-text">Intelligence</div>
+      </div>
+
+      <!-- <div class="grepi-footer-column grepi-footer-column-wide">
+        <div class="grepi-footer-title">Community of practice</div>
+        <div class="grepi-footer-link">
+          <a href="#community" target="_blank" rel="noopener noreferrer">Epidemiological Parameters</a>
+        </div>
+        <div class="grepi-footer-link">
+          <a href="#initiative" target="_blank" rel="noopener noreferrer">GREP initiative</a>
+        </div>
+      </div>-->
+
+      <div class="grepi-footer-column grepi-footer-who-col">
+        <div class="grepi-footer-who">
+          <div class="grepi-footer-who-text">
+            <a target="_blank" href="https://pandemichub.who.int/" rel="noopener noreferrer">
+              Better data. Better analytics. Better decisions.
+            </a>
+          </div>
+          <img src="assets/WHO-EN-W-H.png" alt="WHO" class="grepi-footer-who-logo">
+        </div>
+      </div>
+
+      <!-- <div class="grepi-footer-column">
+        <div class="grepi-footer-title"><a href="https://collaboratory.who.int/epidemiologicalparameters/repository" target="_blank" rel="noopener noreferrer">grEPI</a></div>
+        <div class="grepi-footer-link"><a href="#about">Getting started</a></div>
+        <div class="grepi-footer-link"><a href="#initiative">Contributions</a></div>
+      </div>-->
+
+      <div class="grepi-footer-column">
+        <div class="grepi-footer-title">Contact us</div>
+        <div class="grepi-footer-link">
+          <a href="mailto:collaboratory@who.int">collaboratory@who.int</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script>
-    function handleWorkstreamClick() {
-        document.querySelectorAll('.workstream area').forEach(link => {
-            link.addEventListener('click', function (event) {
-                event.preventDefault();
-                const targetId = this.getAttribute('data-target');
-                const targetDiv = document.getElementById(targetId);
+  (function () {
+    'use strict';
 
-                document.querySelectorAll('.workstreamContent > div').forEach(div => {
-                    if (div !== targetDiv) {
-                        div.style.display = 'none';
-                    }
-					else {
-						targetDiv.style.display = 'flex';
-					}
-                });
-            });
-        });
-    }	  
-	  
-	  
-    window.$docsify = {
-      search: 'auto',
-      auto2top: true,
-      loadSidebar: false,
-      subMaxLevel: 0,
-      name: 'Collaboratory - Epiparameter Community',
-      repo: '',
-      paths: 'auto',
-      coverpage: false,
-      relativePath: false,
-      homepage: '/pages/about.md',
-      onlyCover: false,
-      loadNavbar: true,
-      hideSidebar: true,
-      plugins: [
-                function (hook, vm) {
-                    hook.doneEach(function () {
-                        handleWorkstreamClick();
-                    });
-                }
-            ],
+    /* — Three.js network background — */
+    const container = document.getElementById('hero-canvas');
+    let W = container.clientWidth;
+    let H = container.clientHeight;
+
+    const scene    = new THREE.Scene();
+    const camera   = new THREE.PerspectiveCamera(55, W / H, 1, 1000);
+    camera.position.z = 200;
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(W, H);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    container.appendChild(renderer.domElement);
+
+    const N      = 72;
+    const spread = { x: 340, y: 230, z: 90 };
+    const nodeData    = [];
+    const ptPositions = new Float32Array(N * 3);
+    const ptColors    = new Float32Array(N * 3);
+
+    const palette = [
+      [0.957, 0.659, 0.114], // gold
+      [0, 0.125, 0.361],     // navy
+      [0, 0.125, 0.361]      // navy (sparse)
+    ];
+
+    for (let i = 0; i < N; i++) {
+      const x = (Math.random() - 0.5) * spread.x;
+      const y = (Math.random() - 0.5) * spread.y;
+      const z = (Math.random() - 0.5) * spread.z;
+      nodeData.push({ x, y, z, ox: x, oy: y, oz: z,
+                      vx: (Math.random() - 0.5) * 0.065,
+                      vy: (Math.random() - 0.5) * 0.065 });
+      ptPositions[i * 3]     = x;
+      ptPositions[i * 3 + 1] = y;
+      ptPositions[i * 3 + 2] = z;
+      const c = Math.random() < 0.12 ? palette[2] :
+                Math.random() < 0.55 ? palette[0] : palette[1];
+      ptColors[i * 3]     = c[0];
+      ptColors[i * 3 + 1] = c[1];
+      ptColors[i * 3 + 2] = c[2];
     }
+
+    const ptGeo = new THREE.BufferGeometry();
+    const ptPos = new THREE.BufferAttribute(ptPositions, 3);
+    const ptCol = new THREE.BufferAttribute(ptColors, 3);
+    ptGeo.setAttribute('position', ptPos);
+    ptGeo.setAttribute('color',    ptCol);
+
+    const dotCanvas = document.createElement('canvas');
+    dotCanvas.width = dotCanvas.height = 64;
+    const dotCtx = dotCanvas.getContext('2d');
+    dotCtx.beginPath();
+    dotCtx.arc(32, 32, 28, 0, Math.PI * 2);
+    dotCtx.fillStyle = '#fff';
+    dotCtx.fill();
+    const dotTex = new THREE.CanvasTexture(dotCanvas);
+
+    const ptMat = new THREE.PointsMaterial({
+      size: 3.8, sizeAttenuation: true,
+      vertexColors: true,
+      transparent: true, opacity: 0.78,
+      map: dotTex, alphaTest: 0.5
+    });
+    scene.add(new THREE.Points(ptGeo, ptMat));
+
+    const MAX_SEGS    = 280;
+    const CONNECT_DST = 82;
+    const segPos      = new Float32Array(MAX_SEGS * 6);
+    const segGeo      = new THREE.BufferGeometry();
+    const segAttr     = new THREE.BufferAttribute(segPos, 3);
+    segGeo.setAttribute('position', segAttr);
+    segGeo.setDrawRange(0, 0);
+    const segMat = new THREE.LineBasicMaterial({ color: 0x009ADE, transparent: true, opacity: 0.17 });
+    scene.add(new THREE.LineSegments(segGeo, segMat));
+
+    let mx = 0, my = 0;
+    window.addEventListener('mousemove', e => {
+      mx = (e.clientX / window.innerWidth  - 0.5);
+      my = (e.clientY / window.innerHeight - 0.5);
+    }, { passive: true });
+
+    let frame = 0;
+    function tick() {
+      requestAnimationFrame(tick);
+      frame++;
+      for (let i = 0; i < N; i++) {
+        const d = nodeData[i];
+        d.x += d.vx + (d.ox - d.x) * 0.003;
+        d.y += d.vy + (d.oy - d.y) * 0.003;
+        ptPositions[i * 3]     = d.x;
+        ptPositions[i * 3 + 1] = d.y;
+        ptPositions[i * 3 + 2] = d.z;
+      }
+      ptPos.needsUpdate = true;
+
+      if (frame % 2 === 0) {
+        let sc = 0;
+        for (let i = 0; i < N && sc < MAX_SEGS; i++) {
+          for (let j = i + 1; j < N && sc < MAX_SEGS; j++) {
+            const dx = nodeData[i].x - nodeData[j].x;
+            const dy = nodeData[i].y - nodeData[j].y;
+            const dz = nodeData[i].z - nodeData[j].z;
+            if (dx*dx + dy*dy + dz*dz < CONNECT_DST * CONNECT_DST) {
+              const b = sc * 6;
+              segPos[b]   = nodeData[i].x; segPos[b+1] = nodeData[i].y; segPos[b+2] = nodeData[i].z;
+              segPos[b+3] = nodeData[j].x; segPos[b+4] = nodeData[j].y; segPos[b+5] = nodeData[j].z;
+              sc++;
+            }
+          }
+        }
+        segAttr.needsUpdate = true;
+        segGeo.setDrawRange(0, sc * 2);
+      }
+
+      camera.position.x += (mx * 28 - camera.position.x) * 0.045;
+      camera.position.y += (-my * 18 - camera.position.y) * 0.045;
+      camera.lookAt(0, 0, 0);
+      renderer.render(scene, camera);
+    }
+    tick();
+
+    window.addEventListener('resize', () => {
+      W = container.clientWidth;
+      H = container.clientHeight;
+      camera.aspect = W / H;
+      camera.updateProjectionMatrix();
+      renderer.setSize(W, H);
+    });
+
+    /* — Navbar — */
+    const nav     = document.getElementById('nav');
+    const navMenu = document.getElementById('navMenu');
+    const burger  = document.getElementById('burger');
+
+    function handleScroll() {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+      updateActiveLink();
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    const allSections = Array.from(document.querySelectorAll('section[id]'));
+    const navAnchors  = Array.from(document.querySelectorAll('.nav-link'));
+
+    function updateActiveLink() {
+      const mid = window.scrollY + window.innerHeight * 0.4;
+      let current = allSections[0].id;
+      allSections.forEach(s => { if (s.offsetTop <= mid) current = s.id; });
+      navAnchors.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (!target) return;
+        e.preventDefault();
+        const offset = parseInt(getComputedStyle(nav).height) || 68;
+        window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+        navMenu.classList.remove('open');
+        burger.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    burger.addEventListener('click', () => {
+      const isOpen = navMenu.classList.toggle('open');
+      burger.classList.toggle('open', isOpen);
+      burger.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    /* — Scroll reveal — */
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  })();
   </script>
-	
 
-  <!-- Required: docsify + docsify-themeable -->
-  <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="assets/js/content-loader.js"></script>
 
-  <!-- Docsify Plugins -->
-  <script src="https://unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://unpkg.com/docsify-copy-code"></script>
-  <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Back to top -->
+  <button id="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
 
-  <!-- Prism syntax highlighting -->
-  <script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-git.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-shell-session.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-graphql.min.js"></script>
-  
-  
   <script>
-    document.addEventListener('DOMContentLoaded', positionNavbar, false);
-    
-    window.addEventListener('resize', positionNavbar, true);
-
-    function positionNavbar () {
-      let banner = document.getElementById('banner');
-      let height = banner.offsetHeight + 1;
-      let navbar = document.querySelector('.app-nav');
-      navbar.style.top = height + 'px';
-    }
+    (function () {
+      const btn    = document.getElementById('back-to-top');
+      const about  = document.getElementById('about');
+      const footer = document.querySelector('.footer');
+      function update() {
+        btn.classList.toggle('visible', window.scrollY >= about.offsetTop - 80);
+        const footerTop = footer.getBoundingClientRect().top;
+        const btnHeight = btn.offsetHeight;
+        const margin    = 32; // 2rem
+        if (footerTop < window.innerHeight) {
+          btn.style.bottom = (window.innerHeight - footerTop + margin) + 'px';
+        } else {
+          btn.style.bottom = margin + 'px';
+        }
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
   </script>
-  
-  
-  
+
 </body>
 </html>
