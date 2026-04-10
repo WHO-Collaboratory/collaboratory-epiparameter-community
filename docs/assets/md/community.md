@@ -2,7 +2,7 @@
 
 ### GREP initiative {custom="3Col"}
 
-<p>Global Repository of Epidemiological Parameters (GREP) initiative is building a living repository of epidemiological parameters (grEPI), a publicly accessible digital public good for health. It provides systematic, transparent, and reproducible datasets to understand heterogeneity in parameters, reporting quality, and the context in which they were derived. GREP is led by a Core Technical Working Group and consults the community for input regularly. <a href="https://who-collaboratory.github.io/collaboratory-epiparameter-community/#initiative"> Learn more...</a>
+<p>The Global Repository of Epidemiological Parameters (GREP) initiative is building a living repository of epidemiological parameters (grEPI) as a publicly accessible digital public good for health. It provides systematic, transparent, and reproducible datasets to understand heterogeneity in parameters, reporting quality, and the context in which they were derived. GREP is led by a Core Technical Working Group and consults the community for input regularly. <a href="https://who-collaboratory.github.io/collaboratory-epiparameter-community/#initiative"> Learn more...</a>
 <p>
 <p align="center">
 <br>
@@ -24,13 +24,13 @@ Regular webinars and online workshops provide a platform for sharing knowledge. 
 
 <br clear="left"/> 
 
-### Hackatons {custom="3Col"}
+### Hackathons {custom="3Col"}
 
-We like hackathons, virtual and in-person, as those provide a focused and collaborative space where our community members, partners and supporters work together intensively over a short period of time to develop practical solutions to shared challenges. Past hackatons provided essential inputs that shaped the project we are currently working on and enabled further collaboration, discussions and co-creation of joint outputs.
+We like hackathons, virtual and in-person, as those provide a focused and collaborative space where our community members, partners and supporters work together intensively over a short period of time to develop practical solutions to shared challenges. Past hackathons provided essential inputs that shaped the current projects and enabled further collaboration, discussions and co-creation of joint outputs.
 <br>
 <br>
 <br>
-Everyone is encouraged to propose and lead virtual hackathons based on emerging challenges. Please reach out to us at collaboratory@who.int with your ideas on possible hackatons.
+Everyone is encouraged to propose and lead virtual hackathons based on emerging challenges. Please reach out to us at collaboratory@who.int with ideas on possible hackathons.
 
 ### NoTitle {custom="3Col"}
 <img src="assets/grepiScreenshot.png" style="width:100%;height:280px;border-radius:15px;border:1px solid var(--border);">
