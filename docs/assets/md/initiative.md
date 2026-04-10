@@ -60,7 +60,7 @@ interventions. However, these estimates are scattered across the literature, inc
 
 ###  <span class="material-symbols-outlined">storage</span> W03 {custom="5Col"}
 <p class="third_title" style="white-space: nowrap;">Storage & Integration</p>
-<p>Identification of tools and approaches to support parameters storage in formats usable in analytical pipelines.</p>
+<p>Identification of tools and approaches to support storage of parameters in formats usable in analytical pipelines.</p>
 
 ###  <span class="material-symbols-outlined">fact_check</span> W04 {custom="5Col"}
 <p class="third_title" style="white-space: nowrap;">Quality Assurance</p>
