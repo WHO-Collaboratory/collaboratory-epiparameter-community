@@ -40,11 +40,10 @@
 
 ### Global challenge {custom="3Col"}
 <p>A key challenge in infectious disease modeling is the lack of accessible, standardized, and up-to-date epidemiological parameter estimates. Mathematical models for infectious diseases are increasingly used to support decision-making, relying on parameters such as incubation periods, serial intervals, reproduction numbers, and case fatality ratios to simulate transmission dynamics, infer disease spread, and evaluate
-interventions. However, these estimates are scattered across the literature,  inconsistently reported, and lacking contextual clarity. Because such parameters can change over time, identifying reliable values requires continuous and time-
-consuming literature review, making it difficult for researchers to remain consistently up to date.</p>
+interventions. However, these estimates are scattered across the literature, inconsistently reported, and lacking contextual clarity. Because such parameters can change over time, identifying reliable values requires continuous and time-consuming literature reviews, making it difficult for researchers to remain consistently up to date.</p>
 
 ### Global need {custom="3Col"}
-<p>Currently, there is no central living repository of epidemiological parameters that everyone can access, use, and contribute to. Such a repository would provide a systematic, transparent and reproducible dataset to better and faster understand heterogeneity and quality in reporting and the context from which epidemiological parameter estimates were derived. This would save time by streamlining the identification of relevant parameters. In addition, it would facilitate more informed discussions about parameter selection and their use in guiding public health interventions.</p>
+<p>Currently, there is no central living repository of epidemiological parameters that everyone can access, use, and contribute to. Such a repository would provide a systematic, transparent, and reproducible dataset to better and faster understand heterogeneity and quality in reporting and the context from which epidemiological parameter estimates were derived. This would save time by streamlining the identification of relevant parameters. In addition, it would facilitate more informed discussions about parameter selection and their use in guiding public health interventions.</p>
 
 <!-- ### Our Goal {custom="3Col"}
 <p>To provide  a publicly accessible living global repository of epidemiological parameters (<a href="https://collaboratory.who.int/epidemiologicalparameters/repository" target="_blank" rel="noopener noreferrer">grEPI</a>) as a digital public good for health that supports public health interventions, decision making and responses to public health risks.</p>
